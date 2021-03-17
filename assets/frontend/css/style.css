@@ -1,0 +1,333 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: Calibri;
+
+}
+a{
+	text-decoration: none !important ;
+	color: black;
+}
+ul{
+	list-style: none;
+}
+#key{
+	width: 500px;
+	box-shadow: 1px;
+}
+.navbar li a:hover{
+	color: black !important;
+}
+.navbar {
+	width: 100%;
+}
+.navbar ul li{
+	padding-left: 20px;
+}
+#button-addon1{
+	margin-left: -42px;
+	background-color: none;
+}
+#giohang{
+	margin-top: 12px;
+	margin-left: 5px;
+}
+#danhmucSP{
+	margin-left: -90px;
+}
+#menu-me{
+	width: 190px;
+	margin-top: 17px;
+	margin-left: -10px;
+}
+#SP-me1:hover #menu-con1{
+	display: block;
+}
+#SP-me2:hover #menu-con2{
+	display: block;
+}
+#SP-me3:hover #menu-con3{
+	display: block;
+}
+#SP-me4:hover #menu-con4{
+	display: block;
+}
+.SP-me {
+	height: 25px;
+	line-height: 25px;
+}
+
+.SP-me a{
+	padding-left: 10px;
+}
+.SP-me ul{
+	width: 250px;
+	display: none;
+}
+.SP-con{
+	border: 1px solid #E9ECEF;
+	line-height: 42px;
+	height: 40px;
+	background-color: white;
+}
+.SP-con a{
+	margin-left: 5px;
+	font-size: 14px;
+}
+.SP.me ul{
+	margin-top: 10px;
+}
+.menu-banner{
+	background-color: #F2F2F2;
+	height: 42px;
+	display: flex; 
+}
+.menu-banner p{
+	font-size: 12px;
+	margin-top: -10px;
+}
+.menu-banner li{
+	text-align: center;
+	margin-left: 50px;
+}
+.menu-banner li:first-child{
+	margin-left: -10px;
+}
+.slide {
+	margin-left: -7px;
+	margin-top: 5px;
+}
+.slide img{
+	width: 100%;
+	height: 500px;
+}
+#carouselExampleIndicators1 img{
+	width: 150px;
+	height: 150px;
+}
+.figure-caption{
+	text-align: center;
+}
+.img-thumbnail{
+	height: 270px;
+	margin-bottom: 12px;
+}
+.img-thumbnail a{
+	height: 150px;
+}
+.icon-left{
+	margin-left: -22px;
+	background-color: black !important;
+	height: 25px;
+	width: 25px;
+	color: rgba(0,0,0,0.8)
+}
+.icon-right{
+	margin-right: -25px;
+	background-color: black !important;
+	height: 25px;
+	width: 25px;
+	color: rgba(0,0,0,0.8)
+}
+.laptop-header ul li p:hover{
+	color: red;
+}
+	
+.MTVP-header ul li p:hover{
+ 	color: red;
+}
+.LINHKIEN-header ul li p:hover{
+	color: red;	
+}
+.tintuc ul li{
+	border-bottom: 1px solid #DEE1E5;
+	margin-left: -30px;
+	margin-top:10px;
+}
+.cskh a{
+	width: 100%;
+	padding-right: 10px;
+	color: white;
+}
+.content-footer{
+	margin-top: 10px;
+	width: 250px;
+}
+
+
+
+/*--------------------------------------SAN PHAM----------------------------------------*/
+
+.menu-duongdan a{
+	color: #949494;
+}
+.menu-duongdan{
+	margin-left: -20px;
+	margin-top: 30px;
+}
+.menusp-content {
+	margin-left: -20px;
+	margin-top: 10px;
+}
+.menusp-content ul{
+	margin-left: -25px;
+}
+.menusp-content ul li img{
+	width: 65px;
+	height: 65px;
+}
+.menusp-content ul li{
+	width: 100%;
+	margin-left: -10px;
+	margin-bottom: 8px;
+	border-bottom: 1px solid #D8D5D5;
+} 
+.menusp-content ul li:first-child{
+	margin-top: 10px;
+} 
+.menusp-content ul li:last-child{
+	margin-top: 10px;
+	border: 0px;
+} 
+.menusp-content ul li p{
+	text-align: center;
+}
+.chitiet-header{
+	margin-left: 3px;
+}
+.chitiet-header ul{
+	display: flex;
+	margin-left: -60px;
+}
+.chitiet-header ul li{
+	width: auto;
+	border: 1px solid #D8D5D5;
+	margin-bottom: -17px;
+}
+div.stars {
+  width: 270px;
+  display: inline-block;
+}
+ 
+input.star { display: none; }
+ 
+label.star {
+  float: right;
+  padding: 10px;
+  font-size: 36px;
+  color: #444;
+  transition: all .2s;
+}
+ 
+input.star:checked ~ label.star:before {
+  content: '\f005';
+  color: #FD4;
+  transition: all .25s;
+}
+ 
+input.star-5:checked ~ label.star:before {
+  color: #FE7;
+  text-shadow: 0 0 20px #952;
+}
+ 
+input.star-1:checked ~ label.star:before { color: #F62; }
+ 
+label.star:hover { transform: rotate(-15deg) scale(1.3); }
+ 
+label.star:before {
+  content: '\f006';
+  font-family: FontAwesome;
+}
+
+
+/*------------------------------------DANH MỤC----------------------------------------*/
+.carousel-inner img{
+	height: 150px;
+}
+.carousel-inner {
+	margin-left: 5px;
+}
+.carousel-indicators{
+	margin-top: -20px;
+}
+
+.logo ul li{
+	width: 12.5%;
+	height: 100%;
+	border-right: 1px solid #D8D5D5;
+	text-align: center;
+}
+.logo ul li img{
+	height: 70%;
+	width: 70%;
+}
+.logo ul{
+	width: 100%;
+	border: 1px solid #D8D5D5;
+	display: flex;
+	list-style: none;
+	height: 35px;margin: 0px;
+	padding: 0px;
+	line-height: 35px;
+	margin-left: -15px;
+	margin-top: 10px;
+}
+.filter{
+	display: flex;
+	margin-top: 10px;
+}
+.filter a{
+	color: #2F9AE2;
+}
+.boloc{
+	width: 450px ;
+	margin-left: -50px;
+}
+.boloc  p{
+	font-weight: bold;
+	margin-left: 5px;
+}
+.menu-boloc ul{
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	margin-top: -10px;
+	margin-left: -10px;
+}
+.menu-boloc ul li{
+	display: flex;
+	width: 100
+	margin-left:-10px;
+}
+.menu-boloc ul li span{
+	width: 100%;
+}
+.tragop{
+    width: 82px;
+    height: 22px;
+    background-color: #FBDA00;
+    font-size: 14px;
+    text-align: center;
+    line-height: 22px;
+    border-radius: 5px 5px; 
+    margin-top: 10px;	
+}
+.tragop span{
+	font-weight: bold;
+}
+.gia-ten{
+	margin-left: 10px;
+	width: 50%;
+}
+.danhsach-noibat img{
+	transition: transform ease 0.5s;
+}
+.danhsach-noibat img:hover{
+	transform: scale(1.1);
+}
+.danhsach-content img{
+	transition: transform ease 0.5s;
+}
+.danhsach-content img:hover{
+	transform: scale(1.1);
+}

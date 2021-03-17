@@ -1,0 +1,15 @@
+@media all and (max-width: 320px){
+	.header-top{
+		width: 100%;
+	}
+	.navbar-brand {
+		width: 100px;
+		margin-left: 10px;
+	}
+	.navbar-brand img{
+		width: 100%
+	}
+	#search{
+		width: 50px;
+	}
+}

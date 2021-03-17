@@ -1,0 +1,27 @@
+
+
+/*------------------------------------DANH MỤC----------------------------------------*/
+
+.tragop{
+    width: 82px;
+    height: 22px;
+    background-color: #FBDA00;
+    font-size: 14px;
+    text-align: center;
+    line-height: 22px;
+    border-radius: 5px 5px; 
+    margin-top: 10px;	
+}
+.tragop span{
+	font-weight: bold;
+}
+.gia-ten{
+	margin-left: 10px;
+	width: 50%;
+}
+.danhsach-noibat img{
+	transition: transform ease 0.5s;
+}
+.danhsach-noibat img:hover{
+	transform: scale(1.1);
+}
